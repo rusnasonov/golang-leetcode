@@ -27,4 +27,14 @@
         </td>
 		<td>Medium</td>
  	</tr>
+      <tr>
+  		<td>537</td>
+   		<td>
+           <a href="https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/">Pseudo-Palindromic Paths in a Binary Tree</a>
+        </td>
+		<td>
+            <a href="go/1457-Pseudo_Palindromic_Paths_in_a Binary_Tree.go">Go</a>
+        </td>
+		<td>Medium</td>
+ 	</tr>
 </table>
