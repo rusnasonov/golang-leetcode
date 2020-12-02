@@ -29,6 +29,10 @@ func TestIntervalListIntersection(t *testing.T) {
 		testname := fmt.Sprintf("%v", tt.input)
 		t.Run(testname, func(t *testing.T){
 			output := intervalIntersection(tt.a, tt.b)
+			fmt.Printf("%v", output)
+			if len(output) != len(tt.expexted) {
+				t.Errorf("expected %v, got %v", tt.expexted, output)
+			}
 			for i, item := range output {
 				if item[0] != tt.expexted[i][0] || item[1] != tt.expexted[i][1]{
 					t.Errorf("expected %v, got %v", tt.expexted[i], item)

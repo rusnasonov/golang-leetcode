@@ -7,12 +7,12 @@ func intervalIntersection(A [][]int, B [][]int) [][]int {
 	var res [][]int
 	for i, j := 0, 0; i < len(A) && j < len(B); {
 		a := A[i]
-		b := B[i]
-		if a[1] > b[0] {
+		b := B[j]
+		if a[1] < b[0] {
 			i++
 			continue
 		}
-		if b[1] > a[0] {
+		if b[1] < a[0] {
 			j++
 			continue
 		}
