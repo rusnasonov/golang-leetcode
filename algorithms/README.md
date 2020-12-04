@@ -27,7 +27,7 @@
         </td>
 		<td>Medium</td>
  	</tr>
-      <tr>
+    <tr>
   		<td>537</td>
    		<td>
            <a href="https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/">Pseudo-Palindromic Paths in a Binary Tree</a>
@@ -37,14 +37,23 @@
         </td>
 		<td>Medium</td>
  	</tr>
-    </tr>
-      <tr>
+    <tr>
   		<td>986</td>
    		<td>
            <a href="https://leetcode.com/problems/interval-list-intersections/">Interval List Intersections</a>
         </td>
 		<td>
             <a href="go/986-Interval_List_Intersections.go">Go</a>
+        </td>
+		<td>Medium</td>
+ 	</tr>
+    <tr>
+  		<td>406</td>
+   		<td>
+           <a href="https://leetcode.com/problems/queue-reconstruction-by-height/">Queue Reconstruction by Height</a>
+        </td>
+		<td>
+            <a href="go/406-Queue_Reconstruction_by_Height.go">Go</a>
         </td>
 		<td>Medium</td>
  	</tr>
