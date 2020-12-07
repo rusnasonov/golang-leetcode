@@ -38,6 +38,16 @@
 		<td>Medium</td>
 	</tr>
 	<tr>
+		<td>763</td>
+		<td>
+		<a href="https://leetcode.com/problems/partition-labels">Partition Labels</a>
+		</td>
+		<td>
+			<a href="go/763-Partition_Labels.go">Go</a>
+		</td>
+		<td>Medium</td>
+	</tr>
+	<tr>
 		<td>986</td>
 		<td>
 		<a href="https://leetcode.com/problems/interval-list-intersections">Interval List Intersections</a>
