@@ -1,6 +1,3 @@
-// 986. Interval List Intersections
-// https://leetcode.com/problems/interval-list-intersections/
-
 package main
 
 func intervalIntersection(A [][]int, B [][]int) [][]int {
@@ -29,15 +26,15 @@ func intervalIntersection(A [][]int, B [][]int) [][]int {
 }
 
 func min(a, b int) int {
-    if a < b {
-        return a
-    }
-    return b
+	if a < b {
+		return a
+	}
+	return b
 }
 
 func max(a, b int) int {
-    if a > b {
-        return a
-    }
-    return b
+	if a > b {
+		return a
+	}
+	return b
 }

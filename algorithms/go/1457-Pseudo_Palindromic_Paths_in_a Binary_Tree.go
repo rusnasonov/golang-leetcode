@@ -1,27 +1,22 @@
-// 1457. Pseudo-Palindromic Paths in a Binary Tree
-// https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/
-
 package main
 
-import "fmt"
-
 type TreeNode struct {
-      Val int
-      Left *TreeNode
-      Right *TreeNode
+	Val   int
+	Left  *TreeNode
+	Right *TreeNode
 }
 
 func NewNode(val int, left *TreeNode, right *TreeNode) *TreeNode {
 	return &TreeNode{
-		Val: val,
-		Left: left,
+		Val:   val,
+		Left:  left,
 		Right: right,
 	}
 }
 
 const (
 	WHITE = 0
-	GRAY = 1
+	GRAY  = 1
 	BLACK = 2
 )
 
@@ -31,13 +26,13 @@ func buildTree(values []int) *TreeNode {
 	}
 	root := NewNode(values[0], nil, nil)
 	queue := []*TreeNode{root}
-	for i:=1; i < len(values); i+=2 {
+	for i := 1; i < len(values); i += 2 {
 		node := queue[0]
 		if i < len(values) && values[i] != -1 {
 			node.Left = NewNode(values[i], nil, nil)
 			queue = append(queue, node.Left)
 		}
-		if i + 1 < len(values) && values[i+1] != -1 {
+		if i+1 < len(values) && values[i+1] != -1 {
 			node.Right = NewNode(values[i+1], nil, nil)
 			queue = append(queue, node.Right)
 		}
@@ -53,8 +48,8 @@ func isPalindromic(values []int) bool {
 	}
 	once := false
 	for _, v := range counter {
-		if v % 2 != 0 {
-			if len(values) % 2 == 0 {
+		if v%2 != 0 {
+			if len(values)%2 == 0 {
 				return false
 			} else if !once {
 				once = true
@@ -86,12 +81,10 @@ func pseudoPalindromicPaths(root *TreeNode) int {
 			if node.Right != nil && nodeColors[node.Right] == WHITE {
 				stack = append(stack, node.Right)
 			}
-			
+
 		} else if color == GRAY {
-			// fmt.Printf("%d -> GRAY ", node.Val)
 			nodeColors[node] = BLACK
 			if node.Left == nil && node.Right == nil {
-				fmt.Printf("PATH: %v\n", path)
 				if isPalindromic(path) {
 					pathsCount++
 				}

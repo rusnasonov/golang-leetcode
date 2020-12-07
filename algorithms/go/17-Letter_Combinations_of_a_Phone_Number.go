@@ -1,16 +1,16 @@
 package main
 
-import "sort" 
+import "sort"
 
-var digitToChar = map[string]string {
-    "2": "abc",
-    "3": "def",
-    "4": "ghi",
-    "5": "jkl",
-    "6": "mno",
-    "7": "pqrs",
-    "8": "tuv",
-    "9": "wxyz",
+var digitToChar = map[string]string{
+	"2": "abc",
+	"3": "def",
+	"4": "ghi",
+	"5": "jkl",
+	"6": "mno",
+	"7": "pqrs",
+	"8": "tuv",
+	"9": "wxyz",
 }
 
 func letterCombinations(digits string) []string {
@@ -19,16 +19,16 @@ func letterCombinations(digits string) []string {
 	}
 	totalCombinations := 1
 	for _, digit := range digits {
-        totalCombinations *= len(digitToChar[string(digit)])
-    }
+		totalCombinations *= len(digitToChar[string(digit)])
+	}
 	combinations := make([]string, totalCombinations)
 	chunkLen := totalCombinations
-    for _, digit := range digits {
-        letters := digitToChar[string(digit)]
+	for _, digit := range digits {
+		letters := digitToChar[string(digit)]
 		chunkLen = chunkLen / len(letters)
-		for k:=0; k < len(combinations); {
+		for k := 0; k < len(combinations); {
 			for _, letter := range letters {
-				for i:=0; i < chunkLen; i++ {
+				for i := 0; i < chunkLen; i++ {
 					combinations[k] += string(letter)
 					k++
 				}
@@ -36,5 +36,5 @@ func letterCombinations(digits string) []string {
 		}
 	}
 	sort.Strings(combinations)
-    return combinations
+	return combinations
 }

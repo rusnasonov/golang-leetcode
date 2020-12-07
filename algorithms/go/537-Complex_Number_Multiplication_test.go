@@ -2,7 +2,7 @@ package main
 
 import "testing"
 
-func TestComplexNumberMultiply(t* testing.T){
+func TestComplexNumberMultiply(t *testing.T) {
 	expected := "0+-2i"
 	if res := complexNumberMultiply("1+-1i", "1+-1i"); res != expected {
 		t.Errorf("got %s, expected %s", res, expected)
@@ -13,7 +13,7 @@ func TestComplexNumberMultiply(t* testing.T){
 	}
 }
 
-func TestParseComplex(t* testing.T){
+func TestParseComplex(t *testing.T) {
 	testCase := "1+1i"
 	real, imag, err := parseComplex(testCase)
 	if real != 1 || imag != 1 || err != nil {
