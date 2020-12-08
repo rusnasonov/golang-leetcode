@@ -18,6 +18,16 @@
 		<td>Medium</td>
 	</tr>
 	<tr>
+		<td>338</td>
+		<td>
+		<a href="https://leetcode.com/problems/counting-bits">Counting Bits</a>
+		</td>
+		<td>
+			<a href="go/338-Counting_Bits.go">Go</a>
+		</td>
+		<td>Medium</td>
+	</tr>
+	<tr>
 		<td>406</td>
 		<td>
 		<a href="https://leetcode.com/problems/queue-reconstruction-by-height">Queue Reconstruction by Height</a>
