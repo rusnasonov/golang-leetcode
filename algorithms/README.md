@@ -18,6 +18,16 @@
 		<td>Medium</td>
 	</tr>
 	<tr>
+		<td>46</td>
+		<td>
+		<a href="https://leetcode.com/problems/permutations">Permutations</a>
+		</td>
+		<td>
+			<a href="go/46-Permutations.go">Go</a>
+		</td>
+		<td>Medium</td>
+	</tr>
+	<tr>
 		<td>338</td>
 		<td>
 		<a href="https://leetcode.com/problems/counting-bits">Counting Bits</a>
