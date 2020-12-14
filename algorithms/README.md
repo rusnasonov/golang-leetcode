@@ -18,6 +18,16 @@
 		<td>Medium</td>
 	</tr>
 	<tr>
+		<td>22</td>
+		<td>
+		<a href="https://leetcode.com/problems/generate-parentheses">Generate Parentheses</a>
+		</td>
+		<td>
+			<a href="go/22-Generate_Parentheses.go">Go</a>
+		</td>
+		<td>Medium</td>
+	</tr>
+	<tr>
 		<td>46</td>
 		<td>
 		<a href="https://leetcode.com/problems/permutations">Permutations</a>
