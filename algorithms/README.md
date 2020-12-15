@@ -78,6 +78,16 @@
 		<td>Medium</td>
 	</tr>
 	<tr>
+		<td>739</td>
+		<td>
+		<a href="https://leetcode.com/problems/daily-temperatures">Daily Temperatures</a>
+		</td>
+		<td>
+			<a href="go/739-Daily_Temperatures.go">Go</a>
+		</td>
+		<td>Medium</td>
+	</tr>
+	<tr>
 		<td>763</td>
 		<td>
 		<a href="https://leetcode.com/problems/partition-labels">Partition Labels</a>
