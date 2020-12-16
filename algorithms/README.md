@@ -38,6 +38,16 @@
 		<td>Medium</td>
 	</tr>
 	<tr>
+		<td>78</td>
+		<td>
+		<a href="https://leetcode.com/problems/subsets">Subsets</a>
+		</td>
+		<td>
+			<a href="go/78-Subsets.go">Go</a>
+		</td>
+		<td>Medium</td>
+	</tr>
+	<tr>
 		<td>94</td>
 		<td>
 		<a href="https://leetcode.com/problems/binary-tree-inorder-traversal">Binary Tree Inorder Traversal</a>
