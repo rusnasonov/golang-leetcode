@@ -68,6 +68,16 @@
 		<td>Medium</td>
 	</tr>
 	<tr>
+		<td>347</td>
+		<td>
+		<a href="https://leetcode.com/problems/top-k-frequent-elements">Top K Frequent Elements</a>
+		</td>
+		<td>
+			<a href="go/347-Top_K_Frequent_Elements.go">Go</a>
+		</td>
+		<td>Medium</td>
+	</tr>
+	<tr>
 		<td>406</td>
 		<td>
 		<a href="https://leetcode.com/problems/queue-reconstruction-by-height">Queue Reconstruction by Height</a>
