@@ -58,6 +58,16 @@
 		<td>Medium</td>
 	</tr>
 	<tr>
+		<td>230</td>
+		<td>
+		<a href="https://leetcode.com/problems/kth-smallest-element-in-a-bst">Kth Smallest Element in a BST</a>
+		</td>
+		<td>
+			<a href="go/230-Kth_Smallest_Element_in_a_BST.go">Go</a>
+		</td>
+		<td>Medium</td>
+	</tr>
+	<tr>
 		<td>338</td>
 		<td>
 		<a href="https://leetcode.com/problems/counting-bits">Counting Bits</a>
