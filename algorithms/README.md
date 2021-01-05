@@ -108,6 +108,26 @@
 		<td>Medium</td>
 	</tr>
 	<tr>
+		<td>617</td>
+		<td>
+		<a href="https://leetcode.com/problems/merge-two-binary-trees">Merge Two Binary Trees</a>
+		</td>
+		<td>
+			<a href="go/617-Merge_Two_Binary_Trees.go">Go</a>
+		</td>
+		<td>Easy</td>
+	</tr>
+	<tr>
+		<td>647</td>
+		<td>
+		<a href="https://leetcode.com/problems/palindromic-substrings">Palindromic Substrings</a>
+		</td>
+		<td>
+			<a href="go/647-Palindromic_Substrings.go">Go</a>
+		</td>
+		<td>Medium</td>
+	</tr>
+	<tr>
 		<td>739</td>
 		<td>
 		<a href="https://leetcode.com/problems/daily-temperatures">Daily Temperatures</a>
