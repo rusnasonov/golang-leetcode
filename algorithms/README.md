@@ -58,6 +58,16 @@
 		<td>Medium</td>
 	</tr>
 	<tr>
+		<td>104</td>
+		<td>
+		<a href="https://leetcode.com/problems/maximum-depth-of-binary-tree">Maximum Depth of Binary Tree</a>
+		</td>
+		<td>
+			<a href="go/104-Maximum_Depth_of_Binary_Tree.go">Go</a>
+		</td>
+		<td>Easy</td>
+	</tr>
+	<tr>
 		<td>230</td>
 		<td>
 		<a href="https://leetcode.com/problems/kth-smallest-element-in-a-bst">Kth Smallest Element in a BST</a>
