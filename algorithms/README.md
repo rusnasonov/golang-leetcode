@@ -68,6 +68,16 @@
 		<td>Easy</td>
 	</tr>
 	<tr>
+		<td>226</td>
+		<td>
+		<a href="https://leetcode.com/problems/invert-binary-tree">Invert Binary Tree</a>
+		</td>
+		<td>
+			<a href="go/226-Invert_Binary_Tree.go">Go</a>
+		</td>
+		<td>Easy</td>
+	</tr>
+	<tr>
 		<td>230</td>
 		<td>
 		<a href="https://leetcode.com/problems/kth-smallest-element-in-a-bst">Kth Smallest Element in a BST</a>
