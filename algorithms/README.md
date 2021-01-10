@@ -78,6 +78,16 @@
 		<td>Easy</td>
 	</tr>
 	<tr>
+		<td>206</td>
+		<td>
+		<a href="https://leetcode.com/problems/reverse-linked-list">Reverse Linked List</a>
+		</td>
+		<td>
+			<a href="go/206-Reverse_Linked_List.go">Go</a>
+		</td>
+		<td>Easy</td>
+	</tr>
+	<tr>
 		<td>226</td>
 		<td>
 		<a href="https://leetcode.com/problems/invert-binary-tree">Invert Binary Tree</a>
