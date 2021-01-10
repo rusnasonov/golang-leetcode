@@ -68,6 +68,16 @@
 		<td>Easy</td>
 	</tr>
 	<tr>
+		<td>136</td>
+		<td>
+		<a href="https://leetcode.com/problems/single-number">Single Number</a>
+		</td>
+		<td>
+			<a href="go/136-Single_Number.go">Go</a>
+		</td>
+		<td>Easy</td>
+	</tr>
+	<tr>
 		<td>226</td>
 		<td>
 		<a href="https://leetcode.com/problems/invert-binary-tree">Invert Binary Tree</a>
