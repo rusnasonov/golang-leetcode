@@ -38,6 +38,26 @@
 		<td>Medium</td>
 	</tr>
 	<tr>
+		<td>48</td>
+		<td>
+		<a href="https://leetcode.com/problems/rotate-image">Rotate Image</a>
+		</td>
+		<td>
+			<a href="go/48-Rotate_Image.go">Go</a>
+		</td>
+		<td>Medium</td>
+	</tr>
+	<tr>
+		<td>49</td>
+		<td>
+		<a href="https://leetcode.com/problems/group-anagrams">Group Anagrams</a>
+		</td>
+		<td>
+			<a href="go/49-Group_Anagrams.go">Go</a>
+		</td>
+		<td>Medium</td>
+	</tr>
+	<tr>
 		<td>78</td>
 		<td>
 		<a href="https://leetcode.com/problems/subsets">Subsets</a>
@@ -74,6 +94,16 @@
 		</td>
 		<td>
 			<a href="go/136-Single_Number.go">Go</a>
+		</td>
+		<td>Easy</td>
+	</tr>
+	<tr>
+		<td>169</td>
+		<td>
+		<a href="https://leetcode.com/problems/majority-element">Majority Element</a>
+		</td>
+		<td>
+			<a href="go/169-Majority_Element.go">Go</a>
 		</td>
 		<td>Easy</td>
 	</tr>

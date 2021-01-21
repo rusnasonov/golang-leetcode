@@ -85,7 +85,10 @@ func main() {
 	}
 	root := "algorithms/go/"
     err = filepath.Walk(root, func(path string, info os.FileInfo, err error) error {
-		if !strings.HasSuffix(path, "test.go") && !strings.HasSuffix(path, "go.mod") && !info.IsDir() {
+		if !strings.HasSuffix(path, "test.go") &&
+		   !strings.HasSuffix(path, "go.mod") &&
+		   !strings.HasSuffix(path, "go.sum") &&
+		   !info.IsDir() {
 			path = strings.TrimPrefix(path, root)
 			number, err := strconv.Atoi(strings.Split(path, "-")[0])
 			if err != nil {
