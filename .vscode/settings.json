@@ -1,3 +1,5 @@
 {
-    "go.useLanguageServer": true
+    "go.useLanguageServer": true,
+    "restructuredtext.confPath": "",
+    "python.pythonPath": "/usr/local/bin/python3"
 }
