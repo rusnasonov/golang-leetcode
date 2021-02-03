@@ -79,7 +79,7 @@ class Solution:
                 count-=1
         return count == alphabet_size
 
-def test_subarray_sum():
+def test_permutation_in_string():
     assert Solution().checkInclusion("ab", "eidbaooo") == True
     assert Solution().checkInclusion("ab", "eidboaoo") == False
     assert Solution().checkInclusion("adc", "dcda") == True

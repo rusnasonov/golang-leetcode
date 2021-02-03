@@ -38,7 +38,7 @@ class Solution:
             indexes.append(i)
         return indexes
 
-def test_subarray_sum():
+def test_find_anagrams():
     assert Solution().findAnagrams("cbaebabacd", "abc") == [0, 6]
     assert Solution().findAnagrams("abab", "ab") == [0, 1, 2]
     assert Solution().findAnagrams("aaaaaaaaaa", "aaaaaaaaaaaaa") == []
