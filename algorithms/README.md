@@ -398,6 +398,16 @@
 		<td>Medium</td>
 	</tr>
 	<tr>
+		<td>1265</td>
+		<td>
+		<a href="https://leetcode.com/problems/print-immutable-linked-list-in-reverse">Print Immutable Linked List in Reverse</a>
+		</td>
+		<td>
+				<a href="python/1265-Print_Immutable_Linked_List_in_Reverse.py">python</a>
+		</td>
+		<td>Medium</td>
+	</tr>
+	<tr>
 		<td>1457</td>
 		<td>
 		<a href="https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree">Pseudo-Palindromic Paths in a Binary Tree</a>
